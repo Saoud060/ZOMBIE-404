@@ -4,7 +4,7 @@ import platform
 os.system('git pull')
 
 # Display a message indicating that the tool is working
-print("Wait, working on the tool...")
+#print("Wait, working on the tool...")
 
 adina = platform.architecture()[0]
 if adina == "32bit":
